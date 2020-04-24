@@ -9,6 +9,7 @@ class OrderController extends Controller
 {
     //下单成功
     public function orderSuccess($id){
+        echo "123";
         return view("index.success");
     }
 }
